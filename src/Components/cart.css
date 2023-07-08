@@ -3,6 +3,10 @@
     border: 10px solid white;
     border-radius: 16px;
     display: block;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
     
 
 }
@@ -10,7 +14,8 @@
 .counterFinal {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
     
 }
 
@@ -21,10 +26,26 @@
     text-align: center;
 }
 
+.nombreCar {
+
+    font-size: 40px;
+    color: yellow;
+}
+
 .total {
 
     font-weight: bold;
     padding: 10px;
+    color: red;
+    
+}
+
+.total1 {
+
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    
 }
 
 .btnLimpiar {
@@ -36,6 +57,7 @@
     padding: 10px;
     margin-right: 25px;
     margin-top: 10px;
+    font-weight: bold;
 
 }
 
@@ -49,6 +71,25 @@
     padding: 10px;
     color: black;
     margin-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
 
 }
+
+.btnCheck1 {
+
+    border: 2px solid white;
+    background-color: yellow;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 25px;
+
+}
+
 
