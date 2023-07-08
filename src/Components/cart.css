@@ -1,0 +1,54 @@
+.counter {
+
+    border: 10px solid white;
+    border-radius: 16px;
+    display: block;
+    
+
+}
+
+.counterFinal {
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.counterFinal2 {
+
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.total {
+
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btnLimpiar {
+
+    border: 2px solid red;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin-right: 25px;
+    margin-top: 10px;
+
+}
+
+.btnCheck {
+
+    border: 2px solid white;
+    background-color: cadetblue;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    margin-top: 10px;
+
+}
+

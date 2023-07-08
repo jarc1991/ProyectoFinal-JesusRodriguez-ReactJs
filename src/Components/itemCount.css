@@ -1,0 +1,55 @@
+.divContainer {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+}
+
+.controlContainer {
+
+        width: 120px;
+        padding: 5px;
+        
+
+}
+
+.btnDI {
+
+    background-color: rgb(1, 1, 82);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50px;
+
+}
+
+.numberDI {
+
+    font-size: 20px;
+
+}
+
+.btnAgreg {
+    
+    width: 150px;
+    border-radius: 16px;
+    height: 30px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    
+
+}
+
+.btnAgreg:hover {
+
+    border: 2px solid rgb(245, 5, 185);
+    background-color: white;
+    color: black;
+
+}
+
