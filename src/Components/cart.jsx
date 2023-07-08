@@ -34,7 +34,7 @@ const Cart = () => {
             </div>
             <div className='counterFinal2'>
             
-                <h3 className='total'>Total: ${ total }</h3>
+                <h3 className='total'>Total: ${ total() }</h3>
                 <button onClick={() => clearCart()} className='btnLimpiar'>Limpiar carrito</button>
                 <Link to='/checkout' className='btnCheck'>Checkout</Link>
 
