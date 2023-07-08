@@ -15,9 +15,9 @@ function App() {
 
     <div className='app'>
 
+    <CartProvider>
+
         <BrowserRouter>
-            
-            <CartProvider>
 
               <NavBar />
 
@@ -33,9 +33,9 @@ function App() {
 
               </Routes>
 
-            </CartProvider>
-
         </BrowserRouter>
+
+    </CartProvider>
       
     </div>
 
