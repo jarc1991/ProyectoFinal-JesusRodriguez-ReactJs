@@ -12,7 +12,7 @@ export const CartProvider = ({ children }) => {
 
     console.log (cart)
 
-    const addItem = () => (item, quantity) => {
+    const addItem = (item, quantity) => {
 
 
         if(!isInCart(item.id)) {
